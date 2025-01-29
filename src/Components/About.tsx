@@ -25,13 +25,25 @@ const About = () => {
           </p>
 
           <div className="grid grid-cols-2 gap-4">
-            <div className="p-4 rounded-xl bg-gradient-to-br from-pink-50 to-green-50">
-              <h3 className="font-semibold mb-2">Frontend</h3>
-              <p className="text-gray-600 text-sm">React, TypeScript, Tailwind</p>
+          <div className="p-4 rounded-xl bg-gradient-to-br from-pink-50 to-green-50">
+              <h3 className="font-semibold mb-2">Languages</h3>
+              <p className="text-gray-600 text-sm">C, Python, Java, Javascript</p>
             </div>
             <div className="p-4 rounded-xl bg-gradient-to-br from-pink-50 to-green-50">
-              <h3 className="font-semibold mb-2">Design</h3>
-              <p className="text-gray-600 text-sm">Figma, Adobe XD</p>
+              <h3 className="font-semibold mb-2">Frontend</h3>
+              <p className="text-gray-600 text-sm">HTML, CSS, Javascript, React, Tailwind</p>
+            </div>
+            <div className="p-4 rounded-xl bg-gradient-to-br from-pink-50 to-green-50">
+              <h3 className="font-semibold mb-2">Backend</h3>
+              <p className="text-gray-600 text-sm">Node.js, Express</p>
+            </div>
+            <div className="p-4 rounded-xl bg-gradient-to-br from-pink-50 to-green-50">
+              <h3 className="font-semibold mb-2">Version Control</h3>
+              <p className="text-gray-600 text-sm">Git, Github</p>
+            </div>
+            <div className="p-4 rounded-xl bg-gradient-to-br from-pink-50 to-green-50">
+              <h3 className="font-semibold mb-2">Databases</h3>
+              <p className="text-gray-600 text-sm">Mongodb</p>
             </div>
           </div>
         </motion.div>
@@ -43,7 +55,7 @@ const About = () => {
           className="relative"
         >
           <div className="aspect-square rounded-2xl overflow-hidden">
-            <img src="/placeholder.svg?height=400&width=400" alt="About Me" className="w-full h-full object-cover" />
+            <img src="/dog-programming.jfif" alt="About Me" className="w-full h-full object-cover" />
           </div>
         </motion.div>
       </div>
@@ -52,4 +64,3 @@ const About = () => {
 }
 
 export default About
-

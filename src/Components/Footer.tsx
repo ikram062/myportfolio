@@ -18,14 +18,11 @@ const Footer = () => {
           viewport={{ once: true }}
           className="flex gap-6"
         >
-          <a href="#" className="text-gray-700 hover:text-pink-400 transition-colors">
+          <a href="https://www.linkedin.com/in/ikram-ghala-aab727287/" target="_blank" className="text-gray-700 hover:text-pink-400 transition-colors">
             LinkedIn
           </a>
-          <a href="#" className="text-gray-700 hover:text-pink-400 transition-colors">
+          <a href="https://github.com/ikram062" target="_blank" className="text-gray-700 hover:text-pink-400 transition-colors">
             GitHub
-          </a>
-          <a href="#" className="text-gray-700 hover:text-pink-400 transition-colors">
-            Twitter
           </a>
         </motion.div>
       </div>

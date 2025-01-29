@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { ArrowUpRight } from 'lucide-react';
 
 const Header = () => {
   const scrollToSection = (sectionId: string) => {
@@ -15,7 +14,7 @@ const Header = () => {
       className="fixed top-0 left-0 right-0 z-50 px-6 py-4"
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        {/* Logo */}
+        {/*Logo*/}
         <Link 
           to="/" 
           className="text-xl font-bold flex items-center gap-2"
@@ -56,15 +55,6 @@ const Header = () => {
             </li>
           </ul>
         </nav>
-
-        {/* CTA Button */}
-        <Link 
-          to="/contact"
-          className="flex items-center gap-2 bg-white rounded-full px-6 py-2 text-sm hover:bg-gray-100 transition-colors"
-        >
-          BOOK A CALL
-          <ArrowUpRight className="w-4 h-4" />
-        </Link>
       </div>
     </motion.header>
   );

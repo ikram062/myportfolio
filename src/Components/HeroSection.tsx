@@ -7,11 +7,7 @@ const HeroSection = () => {
     <section className="relative min-h-screen flex items-center">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img
-          src=""
-          alt="Hero Background"
-          className="w-full h-full object-cover"
-        />
+        <img src="/dark-pink-background.jfif" alt="Hero Background" className="w-full h-full object-cover"/>
         <div className="absolute inset-0 bg-black/30" />
       </div>
 

@@ -30,7 +30,6 @@ const Home = () => {
           <Projects />
         </motion.div>
 
-        {/* Experience Grid Section */}
         <motion.section
           className="grid grid-cols-1 md:grid-cols-3 gap-8 py-20"
           initial={{ opacity: 0, y: 20 }}
