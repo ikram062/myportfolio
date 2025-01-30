@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const HeroSection = () => {
-  const tags = ["Frontend", "Backend", "UI/UX", "Mobile", "Web3"];
+  const tags = ["Frontend", "Backend", "Databases", "Version Control", "Frameworks"];
 
   return (
     <section className="relative min-h-screen flex items-center">
@@ -42,21 +42,21 @@ const HeroSection = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
             <ProjectCard 
               number="01"
-              title="E-commerce Platform"
-              image="/placeholder.svg?height=200&width=300"
-              tech="React & Node.js"
+              title="Weather App"
+              image="/weather-app.jfif"
+              tech="API Integration"
             />
             <ProjectCard 
               number="02"
               title="Portfolio Website"
-              image="/placeholder.svg?height=200&width=300"
-              tech="Next.js & Tailwind"
+              image="/portfolio2.jfif"
+              tech="React & Tailwind"
             />
             <ProjectCard 
               number="03"
-              title="Mobile App"
-              image="/placeholder.svg?height=200&width=300"
-              tech="React Native"
+              title="Blog App"
+              image="/blog-app1.jfif"
+              tech="Node.js & Mongodb"
             />
           </div>
         </motion.div>

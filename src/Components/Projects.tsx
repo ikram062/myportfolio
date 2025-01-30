@@ -5,23 +5,23 @@ const Projects = () => {
     {
       id: 1,
       image: "/placeholder.svg?height=400&width=600",
-      title: "E-commerce Platform",
+      title: "Weather App",
       category: "Web Development",
-      description: "A modern e-commerce solution with real-time inventory",
+      description: "A weather app that lets you enter a city name and instantly shows the current temperature by fetching real-time data from a public weather API.",
     },
     {
       id: 2,
       image: "/placeholder.svg?height=400&width=600",
-      title: "Mobile Banking App",
-      category: "Mobile Development",
-      description: "Secure and intuitive mobile banking experience",
+      title: "Portfolio",
+      category: "Web Development",
+      description: "A portfolio website that showcases my projects, skills, and experience in a visually appealing way, helping others learn more about me and my work (I'm trying my best with the design trust).",
     },
     {
       id: 3,
       image: "/placeholder.svg?height=400&width=600",
-      title: "Portfolio Website",
-      category: "Web Design",
-      description: "Clean and modern portfolio for a photographer",
+      title: "Blog App",
+      category: "Ongoing",
+      description: "A blog app that allows users to create, read, and share posts, making it easy to publish and explore content on various topics.",
     },
   ]
 

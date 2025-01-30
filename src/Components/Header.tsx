@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 const Header = () => {
+  
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     element?.scrollIntoView({ behavior: "smooth" });
@@ -19,7 +20,7 @@ const Header = () => {
           to="/" 
           className="text-xl font-bold flex items-center gap-2"
         >
-          <div className="w-8 h-8 bg-black rounded-lg flex items-center justify-center">
+          <div className="w-12 h-12 bg-[rgb(203,65,107)] rounded-lg flex items-center justify-center">
             <span className="text-white">IG</span>
           </div>
         </Link>
