@@ -1,9 +1,8 @@
-import About from "@/Components/About"
-import HeroSection from "@/Components/HeroSection"
-import Projects from "@/Components/Projects"
-import Extra from "@/Components/Extra"
-import { motion } from "framer-motion"
-
+import About from "@/Components/About";
+import HeroSection from "@/Components/HeroSection";
+import Projects from "@/Components/Projects";
+import Extra from "@/Components/Extra";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
@@ -31,11 +30,10 @@ const Home = () => {
           <Projects />
         </motion.div>
 
-        <Extra/>
-        
+        <Extra />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

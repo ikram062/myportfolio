@@ -29,14 +29,14 @@ const Header = () => {
         <nav className="fixed left-1/2 -translate-x-1/2 py-2 px-4 bg-white/10 backdrop-blur-md rounded-full">
           <ul className="flex items-center gap-8">
             <li>
-              <Link to="/" className="text-sm hover:opacity-70 transition-opacity">
+              <Link to="/" className="text-sm hover:opacity-70 transition-opacity cursor-pointer">
                 Home
               </Link>
             </li>
             <li>
               <button 
                 onClick={() => scrollToSection('about')}
-                className="text-sm hover:opacity-70 transition-opacity"
+                className="text-sm hover:opacity-70 transition-opacity cursor-pointer"
               >
                 About
               </button>
@@ -44,7 +44,7 @@ const Header = () => {
             <li>
               <button 
                 onClick={() => scrollToSection('projects')}
-                className="text-sm hover:opacity-70 transition-opacity"
+                className="text-sm hover:opacity-70 transition-opacity cursor-pointer"
               >
                 Projects
               </button>

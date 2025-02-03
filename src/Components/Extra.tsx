@@ -15,15 +15,22 @@ const Extra = () => {
             <div className="flex items-start">
               <div className="w-2 h-2 rounded-full bg-black mt-2 mr-3"></div>
               <div>
-                <h4 className="font-medium">Frontend Developer</h4>
-                <p className="text-gray-600 text-sm">2023 - Present</p>
+                <h4 className="font-medium">Peer Mentor</h4>
+                <p className="text-gray-600 text-sm">September 2024 - December 2024</p>
               </div>
             </div>
             <div className="flex items-start">
               <div className="w-2 h-2 rounded-full bg-black mt-2 mr-3"></div>
               <div>
-                <h4 className="font-medium">UI/UX Designer</h4>
-                <p className="text-gray-600 text-sm">2022 - 2023</p>
+                <h4 className="font-medium">Math&Maroc Tutor</h4>
+                <p className="text-gray-600 text-sm">October 2024 - December 2024</p>
+              </div>
+            </div>
+            <div className="flex items-start">
+              <div className="w-2 h-2 rounded-full bg-black mt-2 mr-3"></div>
+              <div>
+                <h4 className="font-medium">Peer Tutor</h4>
+                <p className="text-gray-600 text-sm">January 2025 - Present</p>
               </div>
             </div>
           </div>
@@ -31,9 +38,9 @@ const Extra = () => {
 
         <div className="bg-gray-50 rounded-2xl p-6">
           <h3 className="text-xl font-semibold mb-4">What I'm Listening To</h3>
-          <div className="aspect-square rounded-xl bg-gray-200 overflow-hidden">
+          <div className="rounded-xl bg-gray-200 overflow-hidden">
             <img
-              src="/placeholder.svg?height=300&width=300"
+              src="/spotify-wrapped2.jpg"
               alt="Playlist Cover"
               className="w-full h-full object-cover"
             />
@@ -44,7 +51,7 @@ const Extra = () => {
           <h3 className="text-xl font-semibold mb-4">Currently Reading</h3>
           <div className="aspect-[3/4] rounded-xl bg-gray-200 overflow-hidden">
             <img
-              src="/placeholder.svg?height=400&width=300"
+              src="/currently-reading.webp"
               alt="Book Cover"
               className="w-full h-full object-cover"
             />
